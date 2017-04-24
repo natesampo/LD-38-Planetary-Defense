@@ -16,7 +16,7 @@ public class Planet extends GameObject {
 		this.xp = 0;
 		this.hp = 100;
 		this.level = 0;
-		image = Toolkit.getDefaultToolkit().getImage("C:/Users/Nate/Desktop/Eclipse Workspace/ASmallWorld/Planet.png");
+		image = Toolkit.getDefaultToolkit().getImage("Planet.png");
 	}
 
 	public void tick(Game game) {
