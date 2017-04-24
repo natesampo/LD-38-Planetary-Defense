@@ -17,5 +17,9 @@ public class KeyInput extends KeyAdapter{
 			this.dead_key = this.key;
 			this.pressed = true;
 		}
+		if(this.game.lose || this.game.win){
+			this.game.newGame();
+			this.game = null;
+		}
 	}
 }
